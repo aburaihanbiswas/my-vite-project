@@ -15,6 +15,7 @@ export const Route = createRootRoute({
       { title: APP_NAME },
       { name: "description", content: DESCRIPTION },
       { name: "theme-color", content: "#0b0c0e" },
+      { name: "google-site-verification", content: "ixC8CR-5tpZULnFTlvKPJb72AnKZUFWZnHBnBRN6RwA" },
     ],
     links: [
       { rel: "icon", type: "image/svg+xml", href: "/favicon.svg" },
