@@ -1,4 +1,4 @@
-import { interests, person, profile } from "@/lib/portfolio";
+import { interests, profile } from "@/lib/portfolio";
 import { SectionHeading } from "@/components/section-heading";
 
 export function About() {
@@ -7,7 +7,7 @@ export function About() {
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-12">
         <div className="lg:col-span-5">
           <SectionHeading index="01" eyebrow="Profile" title="About">
-            Currently in the {person.semester} at Aliah University, expected {person.expected}.
+            Pursuing B.Tech in Electronics & Communication Engineering at Aliah University, expected 2029.
           </SectionHeading>
         </div>
         <div className="lg:col-span-7">
