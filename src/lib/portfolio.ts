@@ -3,8 +3,9 @@ export const person = {
   first: "Abu Raihan",
   last: "Biswas",
   short: "ARB",
-  role: "Electronics & Communication Engineering",
-  headline: "Electronics student in Kolkata, building toward embedded systems, VLSI, and research.",
+  role: "ECE Student @ Aliah University",
+  headline:
+    "NASA ARSET Certified · CitiesRISE Fellow · Electronics & Emerging Technology · 8K+ LinkedIn Followers",
   location: "Kolkata, West Bengal",
   phone: "9093647489",
   phoneHref: "tel:+919093647489",
@@ -12,15 +13,17 @@ export const person = {
   email: "aburaihanbiswas2@gmail.com",
   linkedin: "https://www.linkedin.com/in/abu-raihan-biswas-337141383",
   resumeHref: "/resume.pdf",
-  status: "Open to internships and research",
-  semester: "3rd semester",
+  status: "Open to internships, research, and opportunities",
+  semester: "B.Tech in Electronics & Communication Engineering",
   expected: "2029",
 } as const;
 
-export const profile = `Electronics and Communication Engineering student with an interest in electronics, embedded systems, VLSI and emerging technologies. Seeking opportunities to strengthen technical expertise through hands-on projects, research and industry experience, with a long-term interest in advanced studies and research.`;
+export const profile = `Electronics and Communication Engineering student at Aliah University with interests in semiconductor fabrication, semiconductor devices, semiconductor packaging, embedded systems, VLSI and emerging technologies. Selected as a CitiesRISE Nature-Youth Fellow for the Kolkata cohort in 2026 and selected for Smart India Hackathon 2026. Also 8K+ followers on LinkedIn, with certifications and training listed below.`;
 
 export const interests = [
-  "Electronics",
+  "Semiconductor fabrication",
+  "Semiconductor devices",
+  "Semiconductor packaging",
   "Embedded systems",
   "VLSI",
   "Emerging technologies",
@@ -30,134 +33,145 @@ export const education = [
   {
     id: "btech",
     program: "B.Tech in Electronics & Communication Engineering",
-    school: "Aliah University",
+    school: "Aliah University, Kolkata",
     board: null,
-    period: "Expected 2029",
-    meta: "3rd semester",
-    result: "CGPA 7.6 / 10",
+    period: "2025–2029",
+    meta: null,
+    result: null,
     current: true,
   },
   {
     id: "hs",
-    program: "Higher Secondary (Science)",
-    school: "WBCHSE",
-    board: "West Bengal Council of Higher Secondary Education",
-    period: "2024",
+    program: "Higher Secondary",
+    school: "Tikarbaria KN High School",
+    board: null,
+    period: "2022–2024",
     meta: null,
-    result: "85.2%",
+    result: null,
     current: false,
   },
   {
     id: "sec",
     program: "Secondary",
-    school: "WBBSE",
-    board: "West Bengal Board of Secondary Education",
-    period: "2022",
+    school: "Kupila MIOS SR Madrasah",
+    board: null,
+    period: "2011–2022",
     meta: null,
-    result: "88%",
+    result: null,
     current: false,
   },
 ] as const;
 
 export const skillGroups = [
   {
-    label: "Programming",
-    items: [{ name: "C", level: "Foundations" }],
-  },
-  {
-    label: "Engineering tools",
+    label: "Semiconductor",
     items: [
-      { name: "MATLAB", level: "Foundations" },
-      { name: "PCB design", level: "Coursework" },
+      { name: "Semiconductor fabrication", level: "Focus" },
+      { name: "Semiconductor devices", level: "Focus" },
+      { name: "Semiconductor packaging", level: "Focus" },
     ],
   },
   {
-    label: "Core ECE",
+    label: "Electronics",
     items: [
-      { name: "Analog electronics", level: "Foundations" },
-      { name: "Network analysis", level: "Foundations" },
       { name: "Embedded systems", level: "Coursework" },
+      { name: "PCB design", level: "Coursework" },
       { name: "VLSI", level: "Coursework" },
+    ],
+  },
+  {
+    label: "Engineering",
+    items: [
+      { name: "Electronics & communication", level: "Academic" },
+      { name: "Emerging technologies", level: "Interest" },
+      { name: "Digital marketing", level: "Certified" },
     ],
   },
 ] as const;
 
 export const project = {
-  title: "Smart Athlete Shoe",
-  context: "Smart India Hackathon 2025",
+  title: "Smart India Hackathon 2026",
+  context: "Smart India Hackathon 2026",
   team: "ALIASTEIN",
-  venue: "Student Innovation Challenge, Aliah University Internal Hackathon",
-  outcome: "Qualified for the next round of Smart India Hackathon 2025",
+  venue: "Aliah University Internal Hackathon",
+  outcome: "Selected for Smart India Hackathon 2026",
   summary:
-    "A wearable smart-shoe concept that watches how an athlete moves and loads the body, then flags injury risk before it becomes a problem.",
+    "Selected with Team ALIASTEIN through the Aliah University internal hackathon pathway.",
   points: [
-    "Proposed a wearable smart-shoe designed to identify potential injury risks during athletic activity and give the wearer an early warning.",
-    "Centered the concept on sensor-based monitoring of movement and physical loading for preventive injury detection.",
-    "Built and pitched the idea with Team ALIASTEIN at the Aliah University internal hackathon for Smart India Hackathon 2025.",
-    "The team qualified for the next round of the national selection process.",
+    "Selected for Smart India Hackathon 2026.",
+    "Participated with Team ALIASTEIN through the Aliah University internal hackathon.",
+    "Presented a wearable smart-shoe concept focused on monitoring movement and physical loading.",
+    "The concept was aimed at supporting earlier identification of potential injury risk during athletic activity.",
   ],
 } as const;
 
 export const achievement = {
-  title: "Smart India Hackathon 2025 — next round",
-  detail: "Qualified with Team ALIASTEIN after the Aliah University internal selection.",
+  title: "Smart India Hackathon 2026 — Selected",
+  detail: "Selected with Team ALIASTEIN through the university hackathon pathway.",
 } as const;
+
+export const achievements = [
+  {
+    title: "CitiesRISE Fellowship",
+    detail: "Nature-Youth Fellow, Kolkata cohort, 2026.",
+    kind: "Fellowship",
+  },
+  {
+    title: "Smart India Hackathon 2026",
+    detail: "Selected with Team ALIASTEIN.",
+    kind: "Hackathon",
+  },
+  {
+    title: "NWM2SF-2026 Workshop",
+    detail:
+      "Emerging Microelectronics, MEMS, SiC and Flexible Electronics: Technologies, Applications and Opportunities for Viksit Bharat 2047 (NWM2SF-2026)",
+    kind: "Workshop",
+  },
+  {
+    title: "LinkedIn",
+    detail: "8K+ followers.",
+    kind: "Community",
+  },
+] as const;
 
 export const certifications = [
   {
-    title: "VLSI Course",
-    issuer: "Simplilearn SkillUp",
-    date: "June 2026",
-    kind: "Course",
-  },
-  {
-    title: "Embedded Systems Course",
-    issuer: "Simplilearn SkillUp",
-    date: "May 2026",
-    kind: "Course",
-  },
-  {
-    title: "PCB Design Course",
-    issuer: "Simplilearn SkillUp",
-    date: "May 2026",
-    kind: "Course",
-  },
-  {
-    title: "Introduction to MATLAB: Become a Machine Learning Expert",
-    issuer: "Simplilearn SkillUp",
-    date: "March 2026",
-    kind: "Course",
-  },
-  {
-    title: "Explore Electrical Engineering Job Simulation",
-    issuer: "GE Aerospace / Forage",
-    date: "July 2026",
-    kind: "Simulation",
+    title: "NASA’s Applied Remote Sensing Training (ARSET) Program",
+    issuer: "NASA ARSET",
+    date: "2026",
+    kind: "Training",
   },
   {
     title: "Cyber Job Simulation",
     issuer: "Deloitte / Forage",
-    date: "July 2026",
+    date: "2026",
     kind: "Simulation",
   },
   {
-    title: "Monitoring Water Quality in Lakes and Coastal Regions Using STREAM",
-    issuer: "NASA ARSET",
-    date: "February 2026",
-    kind: "Training",
+    title: "Embedded System Course",
+    issuer: "Course",
+    date: "2026",
+    kind: "Course",
   },
   {
-    title: "AI Tools & Claude Workshop",
-    issuer: "Be10X",
-    date: "August 2026",
-    kind: "Workshop",
+    title: "PCB Design Course",
+    issuer: "Course",
+    date: "2026",
+    kind: "Course",
+  },
+  {
+    title: "Digital Marketing",
+    issuer: "Course",
+    date: "2026",
+    kind: "Course",
   },
 ] as const;
 
 export const nav = [
   { href: "#about", label: "About" },
   { href: "#education", label: "Education" },
-  { href: "#work", label: "Work" },
+  { href: "#work", label: "Highlights" },
   { href: "#skills", label: "Skills" },
+  { href: "#training", label: "Training" },
   { href: "#contact", label: "Contact" },
 ] as const;
