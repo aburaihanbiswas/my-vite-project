@@ -5,7 +5,7 @@ import appCss from "../styles.css?url";
 
 const APP_NAME = "Abu Raihan Biswas";
 const DESCRIPTION =
-  "Portfolio of Abu Raihan Biswas — Electronics & Communication Engineering student at Aliah University. Embedded systems, VLSI, and research.";
+  "Portfolio of Abu Raihan Biswas — ECE student at Aliah University, NASA ARSET certified, CitiesRISE Fellow, Smart India Hackathon 2026 selected, and focused on electronics and emerging technology.";
 
 export const Route = createRootRoute({
   head: () => ({
