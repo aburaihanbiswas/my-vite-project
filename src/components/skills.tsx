@@ -5,7 +5,7 @@ export function Skills() {
   return (
     <section id="skills" className="scroll-mt-24 border-t border-border">
       <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
-        <SectionHeading index="04" eyebrow="Craft" title="Skills">
+        <SectionHeading index="05" eyebrow="Craft" title="Skills">
           Honest foundations — coursework and practice, not padded expertise.
         </SectionHeading>
 
