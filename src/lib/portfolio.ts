@@ -171,6 +171,7 @@ export const nav = [
   { href: "#about", label: "About" },
   { href: "#education", label: "Education" },
   { href: "#work", label: "Highlights" },
+  { href: "#achievements", label: "Achievements" },
   { href: "#skills", label: "Skills" },
   { href: "#training", label: "Training" },
   { href: "#contact", label: "Contact" },
