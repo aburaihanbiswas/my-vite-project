@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { About } from "@/components/about";
+import { Achievements } from "@/components/achievements";
 import { Certs } from "@/components/certs";
 import { Contact } from "@/components/contact";
 import { Education } from "@/components/education";
@@ -20,6 +21,7 @@ function Home() {
         <About />
         <Education />
         <Project />
+        <Achievements />
         <Skills />
         <Certs />
         <Contact />
