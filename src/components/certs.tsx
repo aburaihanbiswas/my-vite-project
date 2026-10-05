@@ -3,7 +3,7 @@ import { certifications } from "@/lib/portfolio";
 import { SectionHeading } from "@/components/section-heading";
 import { cn } from "@/lib/utils";
 
-const filters = ["All", "Course", "Simulation", "Training", "Workshop"] as const;
+const filters = ["All", "Course", "Simulation", "Training"] as const;
 type Filter = (typeof filters)[number];
 
 export function Certs() {
@@ -19,14 +19,14 @@ export function Certs() {
   return (
     <section id="training" className="scroll-mt-24 border-t border-border">
       <div className="mx-auto max-w-6xl px-5 py-20 sm:px-8 sm:py-28">
-        <SectionHeading index="05" eyebrow="Training" title="Certificates">
-          Courses, job simulations, and workshops from 2026.
+        <SectionHeading index="06" eyebrow="Credentials" title="Training & Certifications">
+          Certificates and training are listed as compact credentials; verification remains on LinkedIn.
         </SectionHeading>
 
         <div
           className="mt-10 flex flex-wrap gap-2"
           role="tablist"
-          aria-label="Filter certificates"
+          aria-label="Filter credentials"
         >
           {filters.map((f) => (
             <button
@@ -50,7 +50,7 @@ export function Certs() {
         <ul className="mt-8 divide-y divide-border">
           {items.map((item) => (
             <li
-              key={`${item.title}-${item.date}`}
+              key={item.title + "-" + item.date}
               className="grid gap-1 py-5 sm:grid-cols-12 sm:items-baseline sm:gap-6"
             >
               <p className="text-sm text-muted sm:col-span-3">{item.date}</p>
