@@ -35,8 +35,8 @@ export const education = [
     school: "Aliah University",
     board: null,
     period: "Expected 2029",
-    meta: "3rd semester",
-    result: "CGPA 7.6 / 10",
+    meta: "5th semester",
+    result: "CGPA 8.0 / 10",
     current: true,
   },
   {
