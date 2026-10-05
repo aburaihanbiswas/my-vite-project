@@ -38,7 +38,7 @@ export function Contact() {
     <section id="contact" className="scroll-mt-24 border-t border-border">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-12">
         <div className="lg:col-span-5">
-          <SectionHeading index="06" eyebrow="Connect" title="Get in touch">
+          <SectionHeading index="07" eyebrow="Connect" title="Get in touch">
             For internships, research, or a conversation about electronics and embedded systems.
           </SectionHeading>
 
