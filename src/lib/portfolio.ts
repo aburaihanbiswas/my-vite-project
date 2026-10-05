@@ -4,8 +4,7 @@ export const person = {
   last: "Biswas",
   short: "ARB",
   role: "ECE Student @ Aliah University",
-  headline:
-    "NASA ARSET Certified · CitiesRISE Fellow · Electronics & Emerging Technology · 8K+ LinkedIn Followers",
+  headline: "CitiesRISE Fellow · NASA ARSET Certified · Electronics & Emerging Technology",
   location: "Kolkata, West Bengal",
   phone: "9093647489",
   phoneHref: "tel:+919093647489",
@@ -18,7 +17,7 @@ export const person = {
   expected: "2029",
 } as const;
 
-export const profile = `Electronics and Communication Engineering student at Aliah University with interests in semiconductor fabrication, semiconductor devices, semiconductor packaging, embedded systems, VLSI and emerging technologies. Selected as a CitiesRISE Nature-Youth Fellow for the Kolkata cohort in 2026 and selected for Smart India Hackathon 2026. Also 8K+ followers on LinkedIn, with certifications and training listed below.`;
+export const profile = `Electronics and Communication Engineering student at Aliah University with interests in semiconductor fabrication, semiconductor devices, semiconductor packaging, embedded systems, VLSI and emerging technologies. CitiesRISE Nature-Youth Fellow for the Kolkata cohort in 2026 and selected for Smart India Hackathon 2026. Also active on LinkedIn with 8K+ followers.`;
 
 export const interests = [
   "Semiconductor fabrication",
@@ -33,31 +32,31 @@ export const education = [
   {
     id: "btech",
     program: "B.Tech in Electronics & Communication Engineering",
-    school: "Aliah University, Kolkata",
+    school: "Aliah University",
     board: null,
-    period: "2025–2029",
-    meta: null,
-    result: null,
+    period: "Expected 2029",
+    meta: "3rd semester",
+    result: "CGPA 7.6 / 10",
     current: true,
   },
   {
     id: "hs",
-    program: "Higher Secondary",
-    school: "Tikarbaria KN High School",
-    board: null,
-    period: "2022–2024",
+    program: "Higher Secondary (Science)",
+    school: "WBCHSE",
+    board: "West Bengal Council of Higher Secondary Education",
+    period: "2024",
     meta: null,
-    result: null,
+    result: "85.2%",
     current: false,
   },
   {
     id: "sec",
     program: "Secondary",
-    school: "Kupila MIOS SR Madrasah",
-    board: null,
-    period: "2011–2022",
+    school: "WBBSE",
+    board: "West Bengal Board of Secondary Education",
+    period: "2022",
     meta: null,
-    result: null,
+    result: "88%",
     current: false,
   },
 ] as const;
@@ -122,14 +121,8 @@ export const achievements = [
     kind: "Hackathon",
   },
   {
-    title: "NWM2SF-2026 Workshop",
-    detail:
-      "Emerging Microelectronics, MEMS, SiC and Flexible Electronics: Technologies, Applications and Opportunities for Viksit Bharat 2047 (NWM2SF-2026)",
-    kind: "Workshop",
-  },
-  {
     title: "LinkedIn",
-    detail: "8K+ followers.",
+    detail: "8K+ followers on LinkedIn.",
     kind: "Community",
   },
 ] as const;
