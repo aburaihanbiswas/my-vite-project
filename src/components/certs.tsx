@@ -3,7 +3,7 @@ import { certifications } from "@/lib/portfolio";
 import { SectionHeading } from "@/components/section-heading";
 import { cn } from "@/lib/utils";
 
-const filters = ["All", "Course", "Simulation", "Training"] as const;
+const filters = ["All", "Course", "Simulation", "Training", "Workshop", "Quiz"] as const;
 type Filter = (typeof filters)[number];
 
 export function Certs() {
